@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">BARSHA AI Assistant preview</title>
+  <desc id="desc">A stylized preview banner for the BARSHA AI Assistant project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)" rx="22"/>
+  <rect x="30" y="30" width="1140" height="640" rx="26" fill="rgba(15,23,42,0.55)" stroke="rgba(148,163,184,0.35)"/>
+  <circle cx="865" cy="240" r="260" fill="url(#glow)"/>
+
+  <g>
+    <rect x="108" y="128" width="280" height="280" rx="36" fill="#0b1120" stroke="url(#accent)" stroke-width="4"/>
+    <circle cx="248" cy="208" r="72" fill="#22d3ee" opacity="0.2"/>
+    <path d="M210 260c18-28 46-42 78-42s60 14 78 42v26H210v-26zm18 42h120l14 38H214l14-38z" fill="#e2e8f0"/>
+    <path d="M154 324c26-42 81-78 156-78 66 0 116 20 152 58" stroke="#38bdf8" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.8"/>
+  </g>
+
+  <g>
+    <text x="500" y="280" fill="#f8fafc" font-size="62" font-family="Segoe UI, Arial, sans-serif" font-weight="700">BARSHA</text>
+    <text x="500" y="340" fill="#cbd5e1" font-size="32" font-family="Segoe UI, Arial, sans-serif">AI Assistant</text>
+    <rect x="500" y="380" width="250" height="8" rx="4" fill="url(#accent)"/>
+    <text x="500" y="450" fill="#94a3b8" font-size="24" font-family="Segoe UI, Arial, sans-serif">Voice • Vision • Memory • Automation</text>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="1040" cy="138" r="8" fill="#22d3ee"/>
+    <circle cx="1068" cy="130" r="6" fill="#a78bfa"/>
+    <circle cx="1094" cy="146" r="5" fill="#f8fafc"/>
+    <circle cx="990" cy="520" r="8" fill="#a78bfa"/>
+    <circle cx="1018" cy="548" r="6" fill="#22d3ee"/>
+    <circle cx="1060" cy="535" r="5" fill="#f8fafc"/>
+  </g>
+</svg>
